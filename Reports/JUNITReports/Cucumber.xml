@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.356">
+    <testcase classname="Using of tags in Cucumber" name="Scenario1" time="0.081">
+        <system-out><![CDATA[Given This is Scenario1.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario3" time="0.006">
+        <system-out><![CDATA[Given This is Scenario3.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

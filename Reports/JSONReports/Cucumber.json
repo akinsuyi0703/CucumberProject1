@@ -1,0 +1,90 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-27T18:54:11.237Z",
+        "line": 5,
+        "name": "Scenario1",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3001000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is Scenario1",
+            "match": {
+              "location": "com.stepDefination.TagsDemo.this_is_Scenario1()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-27T18:54:11.325Z",
+        "line": 12,
+        "name": "Scenario3",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "This is Scenario3",
+            "match": {
+              "location": "com.stepDefination.TagsDemo.this_is_Scenario3()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "and"
+          },
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "Using of tags in Cucumber",
+    "description": "",
+    "id": "using-of-tags-in-cucumber",
+    "keyword": "Feature",
+    "uri": "file:Features/TagDemo.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
